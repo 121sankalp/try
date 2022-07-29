@@ -1,0 +1,15 @@
+.flex
+{display: flex;
+height: 500px;
+flex-direction: column-reverse;
+
+
+}
+.flex div
+{background-color: rgb(221, 226, 221);
+ height: 200px;
+ width: 33%;
+ border: 5px;
+ border-style: solid;
+ border-color: brown;
+}

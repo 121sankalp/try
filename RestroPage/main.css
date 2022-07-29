@@ -1,0 +1,50 @@
+/* .main
+{border: 5px;
+  width:200px
+ 
+
+}
+
+
+.one
+{
+height: 200px;
+width: 200px;
+background-color: blueviolet;
+ float: left;
+
+}
+.two
+{
+height: 200px;
+width: 200px;
+background-color: red;
+ float: left;
+
+} */
+
+
+.one
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+     float: left;
+
+
+}
+.two
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+     float: right;
+      width: 200px;
+
+}
+.three
+{
+margin: auto;
+width: 200px;
+
+}

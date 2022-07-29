@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .inner
+    {
+        display: none;
+    }
+
+    </style>
+</head>
+<body>
+    <table class ="outer" border="7px">
+    <tr>
+      <td>Sno</td>
+      <td>name</td>
+       <td>Total MARks</td>
+    </tr>
+    <tr>
+     <td>1</td>
+     <td>suraj</td>
+     <td>500</td>
+
+
+    </tr>
+
+    <table class="inner" border="5px">
+      <tr>
+        <td>Subject</td>
+        <td>marks</td>
+
+      </tr>
+      <tr>
+        <td>hindi</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Maths</td>
+        <td>300</td>
+      </tr>
+
+
+    </table>
+
+
+    </table>
+</body>
+<script src="jquery-3.6.0.js"></script>
+<script>
+$(document).ready(function(e){
+$(".outer").click(function(e){
+    $(".inner").fadeToggle(500);
+}
+
+);
+
+}
+
+);
+
+
+</script>
+</html>
